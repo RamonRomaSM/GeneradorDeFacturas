@@ -2,7 +2,7 @@
 Este es un generador de facturas estándar para cualquier tipo de negocio
 
 
-Como funciona la factura:
+### Como funciona la factura:
   + 1 cliente
   + N conceptos
   + N importes
@@ -15,7 +15,7 @@ Como funciona la factura:
           +   Cliente jur Fact jur: no
 
 
-Datos:
+### Datos:
  + Nombre Facturante
  + Domicilio Facturante
  + C postal (opcional)
@@ -31,15 +31,15 @@ Datos:
  + Fecha
  + Documento del Facturante (receptor)
  
-Extra:
+### Extra:
  + Times new roman como fuente
  + Que la fecha aparezca placeholder de hoy, pero no tiene por que ser hoy
  + Que la fecha y el importe aparezcan con palabras
 
-Id factura:
+### Id factura:
 + aaaammdd_n (n es un numero consecutivo, se reinicia por dia)
 
-BDD:
+### BDD:
   +  Datos_Factura
       +  Nombre Facturante
       +  Domicilio Facturante
