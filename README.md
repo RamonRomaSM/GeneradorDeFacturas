@@ -8,12 +8,11 @@ Como funciona la factura:
   + N importes
   + El IVA se aplica sobre el total de la suma de los importes
   + IRPF:
-      + El Cliente y/ o el Facturante pueden ser personas fisicas o juridicas:
-        
-            +   Cliente fis Fact jur:  no aplica
-            +   Cliente juridica Fact fis: si aplica
-            +   Cliente fis Fact fis: no
-            +   Cliente jur Fact jur: no
+      + El Cliente y/ o el Facturante pueden ser personas fisicas o juridicas:       
+          +   Cliente fis Fact jur:  no aplica
+          +   Cliente juridica Fact fis: si aplica
+          +   Cliente fis Fact fis: no
+          +   Cliente jur Fact jur: no
 Datos:
  + Nombre Facturante
  + Domicilio Facturante
