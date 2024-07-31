@@ -1,4 +1,4 @@
-# BillGenerator
+# Generador de Facturas
 Este es un generador de facturas estándar para cualquier tipo de negocio
 
 
