@@ -35,9 +35,15 @@ Este es un generador de facturas estándar para cualquier tipo de negocio
  + Times new roman como fuente
  + Que la fecha aparezca placeholder de hoy, pero no tiene por que ser hoy
  + Que la fecha y el importe aparezcan con palabras
+ + Pushear copia sqlite a google drive
 
 ### Id factura:
 + aaaammdd_n (n es un numero consecutivo, se reinicia por dia)
+
+### Casos de uso
++  Generar facturas
++  Visualizar fac
+
 
 ### BDD:
   + Facturante
