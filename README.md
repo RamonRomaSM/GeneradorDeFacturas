@@ -10,8 +10,12 @@ Como funciona la factura:
   + De ser Juridica, el IRPF se aplica (y aplica restando) sobre el total con el iva aplicado
 
 Datos:
+ + Nombre Facturante
+ + Domicilio Facturante
+ + C postal (opcional)
+ + Id factura 
  + Nombre del Cliente
- + Domicilio pagador
+ + Domicilio Cliente
  + Documento
  + Conceptos
  + Importes
@@ -26,6 +30,16 @@ Extra:
  + Que la fecha aparezca placeholder de hoy, pero no tiene por que ser hoy
  + Que la fecha y el importe aparezcan con palabras
 
+Id factura:
++ aaaammdd_n (n es un numero consecutivo, se reinicia por dia)
 
 BDD:
-  +  
+  +  Datos_Factura
+    +  Nombre Facturante
+    +  Domicilio Facturante
+    +  C postal (opcional)
+
+
+
+
+     
