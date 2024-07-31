@@ -38,7 +38,8 @@ BDD:
     +  Nombre Facturante
     +  Domicilio Facturante
     +  C postal (opcional)
-
+    +  Conceptos
+    +  SiFisica
 
 
 
