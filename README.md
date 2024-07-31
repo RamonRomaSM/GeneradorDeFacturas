@@ -1,5 +1,7 @@
 # BillGenerator
 Este es un generador de facturas estándar para cualquier tipo de negocio
+
+
 Como funciona la factura:
   + 1 cliente
   + N conceptos
