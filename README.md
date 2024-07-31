@@ -35,11 +35,11 @@ Id factura:
 
 BDD:
   +  Datos_Factura
-    +  Nombre Facturante
-    +  Domicilio Facturante
-    +  C postal (opcional)
-    +  Conceptos
-    +  SiFisica
+      +  Nombre Facturante
+      +  Domicilio Facturante
+      +  C postal (opcional)
+      +  Conceptos
+      +  SiFisica
 
 
 
