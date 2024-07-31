@@ -10,7 +10,7 @@ Como funciona la factura:
   + De ser Juridica, el IRPF se aplica (y aplica restando) sobre el total con el iva aplicado
 
 Datos:
- + Nombre del pagador
+ + Nombre del Cliente
  + Calle pagador
  + Documento
  + Conceptos
@@ -19,7 +19,7 @@ Datos:
  + IRPF de tenerlo
  + TOTAL final
  + Fecha
- + Documento del recibidor
+ + Documento del Facturante (receptor)
  
 Extra:
  + Times new roman como fuente
