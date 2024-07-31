@@ -11,7 +11,7 @@ Como funciona la factura:
 
 Datos:
  + Nombre del Cliente
- + Calle pagador
+ + Domicilio pagador
  + Documento
  + Conceptos
  + Importes
