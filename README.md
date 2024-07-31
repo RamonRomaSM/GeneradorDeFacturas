@@ -13,6 +13,8 @@ Como funciona la factura:
           +   Cliente juridica Fact fis: si aplica
           +   Cliente fis Fact fis: no
           +   Cliente jur Fact jur: no
+
+
 Datos:
  + Nombre Facturante
  + Domicilio Facturante
