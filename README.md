@@ -7,7 +7,9 @@ Como funciona la factura:
   + N conceptos
   + N importes
   + El IVA se aplica sobre el total de la suma de los importes
-  + De ser Juridica, el IRPF se aplica (y aplica restando) sobre el total con el iva aplicado
+  + IRPF:
+      + El Cliente y/ o el Facturante pueden ser personas fisicas o juridicas
+          
 
 Datos:
  + Nombre Facturante
