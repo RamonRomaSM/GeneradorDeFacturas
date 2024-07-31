@@ -40,12 +40,15 @@ Este es un generador de facturas estándar para cualquier tipo de negocio
 + aaaammdd_n (n es un numero consecutivo, se reinicia por dia)
 
 ### BDD:
-  +  Datos_Factura
+  + Facturante
+  + Cliente
+  + Datos_Factura
       +  Nombre Facturante
       +  Domicilio Facturante
       +  C postal (opcional)
       +  Conceptos
       +  SiFisica
+  + Facturas_Generadas
 
 
 
