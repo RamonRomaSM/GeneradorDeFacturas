@@ -1,11 +1,11 @@
 # BillGenerator
 Este es un generador de facturas estándar para cualquier tipo de negocio
 Como funciona la factura:
-  1 cliente
-  N conceptos
-  N importes
-  El IVA se aplica sobre el total de los importes
-  De ser Juridica, el IRPF se aplica (y aplica restando) sobre el total con el iva aplicado
+  + 1 cliente
+  + N conceptos
+  + N importes
+  + El IVA se aplica sobre el total de la suma de los importes
+  + De ser Juridica, el IRPF se aplica (y aplica restando) sobre el total con el iva aplicado
 
 Datos:
  + Nombre del pagador
