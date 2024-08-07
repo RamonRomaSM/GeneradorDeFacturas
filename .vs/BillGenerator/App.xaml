@@ -1,0 +1,15 @@
+﻿<Application x:Class="BillGenerator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BillGenerator"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <ResourceDictionary> 
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="\diccionarios\Dictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

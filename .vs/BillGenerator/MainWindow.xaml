@@ -1,0 +1,87 @@
+﻿<Window x:Class="BillGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BillGenerator"
+        mc:Ignorable="d"
+        Title="Facturación" MinHeight="600" MinWidth="900"
+        >
+    <Grid Background="#D1D1D1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Background="#415A77">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height=".15*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+
+                <Button  Margin="0,30,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}">
+                   
+                    <Grid Margin="30,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".25*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="/resources/generarIcono.png" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+                        <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Generar</TextBlock>
+                    </Grid>
+                </Button>
+
+
+                <Button 
+                    Margin="0,30,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}" >
+
+                    <Grid Margin="30,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".25*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="/resources/generarIcono.png" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+                        <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Datos</TextBlock>
+                    </Grid>
+                </Button>
+
+                <Button 
+                Margin="0,30,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}"  >
+
+                    <Grid Margin="30,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".25*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="/resources/generarIcono.png" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+                        <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Ajustes</TextBlock>
+                    </Grid>
+                </Button>
+                
+            </StackPanel>
+
+            <Button Grid.Row="1"  Margin="0,30,0,0"
+                        Style="{StaticResource  BotonSalir}"  >
+
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".25*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="/resources/salirIcono.png" HorizontalAlignment="Left" Margin="0,0,15,0"/>
+                    <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Salir</TextBlock>
+                </Grid>
+
+            </Button>
+
+        </Grid>
+       
+        
+        
+        
+    </Grid>
+</Window>

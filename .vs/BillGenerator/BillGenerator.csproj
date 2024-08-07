@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\generarIcono.png" />
+    <None Remove="resources\salirIcono.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\generarIcono.png" />
+    <Resource Include="resources\salirIcono.png" />
+  </ItemGroup>
+
+</Project>
