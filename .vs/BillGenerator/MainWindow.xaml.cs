@@ -25,6 +25,21 @@ namespace BillGenerator
             InitializeComponent();
         }
 
-      
+        private void Salir(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void Generar_Pantalla(object sender, RoutedEventArgs e)
+        {
+           
+        }
+        private void Datos_Pantalla(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        private void Ajustes_Pantalla(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

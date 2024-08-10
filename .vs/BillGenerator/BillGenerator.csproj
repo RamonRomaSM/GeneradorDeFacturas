@@ -8,13 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="resources\base-de-datosIcono.png" />
+    <None Remove="resources\configuracionIcono.png" />
     <None Remove="resources\generarIcono.png" />
     <None Remove="resources\salirIcono.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="resources\base-de-datosIcono.png" />
+    <Resource Include="resources\configuracionIcono.png" />
     <Resource Include="resources\generarIcono.png" />
     <Resource Include="resources\salirIcono.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="entidades\" />
   </ItemGroup>
 
 </Project>

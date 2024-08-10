@@ -46,3 +46,7 @@ C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.pdb
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.genruntimeconfig.cache
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\ref\BillGenerator.dll
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\DatosPantalla.g.cs
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\GenerarPantalla.g.cs
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\DatosPantalla.baml
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\GenerarPantalla.baml

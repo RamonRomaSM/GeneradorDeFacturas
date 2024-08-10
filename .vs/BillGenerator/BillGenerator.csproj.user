@@ -7,10 +7,24 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="pantallas\DatosPantalla.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="pantallas\GenerarPantalla.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="diccionarios\Dictionary.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pantallas\DatosPantalla.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pantallas\GenerarPantalla.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

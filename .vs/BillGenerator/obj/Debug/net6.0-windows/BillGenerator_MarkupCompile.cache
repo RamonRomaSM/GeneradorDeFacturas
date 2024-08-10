@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\App.xaml
-2-670384349
+4-1759243151
 
-4-925809546
+6-1236093926
 1941675070116
-diccionarios\Dictionary.xaml;MainWindow.xaml;
+diccionarios\Dictionary.xaml;MainWindow.xaml;pantallas\DatosPantalla.xaml;pantallas\GenerarPantalla.xaml;
 
 False
 
