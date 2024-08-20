@@ -31,11 +31,15 @@ C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\diccionarios\Dictionary.baml
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\diccionarios\Dictionary.g.cs
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\DatosPantalla.g.cs
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\GenerarPantalla.g.cs
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator_MarkupCompile.cache
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator_MarkupCompile.lref
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\App.baml
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\DatosPantalla.baml
+C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\GenerarPantalla.baml
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.g.resources
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.AssemblyInfoInputs.cache
@@ -46,7 +50,3 @@ C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.pdb
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\BillGenerator.genruntimeconfig.cache
 C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\ref\BillGenerator.dll
-C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\DatosPantalla.g.cs
-C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\GenerarPantalla.g.cs
-C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\DatosPantalla.baml
-C:\Users\win10\Documents\GitHub\BillGenerator\.vs\BillGenerator\obj\Debug\net6.0-windows\pantallas\GenerarPantalla.baml

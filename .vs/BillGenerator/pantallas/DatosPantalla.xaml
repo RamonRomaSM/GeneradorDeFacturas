@@ -6,7 +6,56 @@
              xmlns:local="clr-namespace:BillGenerator.pantallas"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".20*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <!-- DATOS FACTURANTE | CLIENTE | CONCEPTOS | -->
+            <Button Margin="0,10,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}"
+                        Click="CambiarOpcion"
+                        Name="Facturante">
+                <Grid Margin="15,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".25*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="/resources/userIcono.png" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+                    <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Facturante</TextBlock>
+                </Grid>
+            </Button>
+            <Button Margin="0,15,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}"
+                        Click="CambiarOpcion"
+                        Name="Clientes">
+                <Grid Margin="10,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".25*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="/resources/clientesIcono.png" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+                    <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Clientes</TextBlock>
+                </Grid>
+            </Button>
+            <Button Margin="0,15,0,0"
+                    Style="{StaticResource  BotonesBarraNavegacion}"
+                    Click="CambiarOpcion"
+                    Name="Conceptos">
+                <Grid Margin="10,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".25*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="/resources/facturaIcono.png" HorizontalAlignment="Left" Margin="0,0,0,0"/>
+                    <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Conceptos</TextBlock>
+                </Grid>
+
+            </Button>
+          
+        </StackPanel>
+        
+        
     </Grid>
 </UserControl>

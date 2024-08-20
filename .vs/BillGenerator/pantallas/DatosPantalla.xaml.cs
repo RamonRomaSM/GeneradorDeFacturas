@@ -24,5 +24,29 @@ namespace BillGenerator.pantallas
         {
             InitializeComponent();
         }
+        private void CambiarOpcion(object sender, RoutedEventArgs e)
+        {
+            //string opcion = ((Button)sender).Name;
+            //switch (opcion)
+            //{
+            //    case "Generar":
+            //        seleccionado.Background = null;
+            //        seleccionado = (Button)sender;
+            //        seleccionado.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#778DA9"));
+            //        break;
+            //    case "Datos":
+            //        seleccionado.Background = null;
+            //        seleccionado = (Button)sender;
+            //        seleccionado.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#778DA9"));
+            //        ContenedorPrincipal = new DatosPantalla();
+            //        break;
+            //    case "Ajustes":
+            //        seleccionado.Background = null;
+            //        seleccionado = (Button)sender;
+            //        seleccionado.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#778DA9"));
+            //        break;
+            //}
+
+        }
     }
 }

@@ -20,9 +20,11 @@
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0">
 
-                <Button  Margin="0,30,0,0"
-                        Style="{StaticResource  BotonesBarraNavegacion}">
-                   
+                <Button Margin="0,30,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}"
+                        Click="CambiarOpcion"
+                        Name="Generar">
+                        
                     <Grid Margin="30,0,0,0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width=".25*"/>
@@ -35,8 +37,11 @@
 
 
                 <Button 
-                    Margin="0,30,0,0"
-                        Style="{StaticResource  BotonesBarraNavegacion}" >
+                       
+                        Margin="0,30,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}" 
+                        Click="CambiarOpcion"
+                        Name="Datos">
 
                     <Grid Margin="30,0,0,0">
                         <Grid.ColumnDefinitions>
@@ -49,8 +54,10 @@
                 </Button>
 
                 <Button 
-                Margin="0,30,0,0"
-                        Style="{StaticResource  BotonesBarraNavegacion}"  >
+                        Margin="0,30,0,0"
+                        Style="{StaticResource  BotonesBarraNavegacion}"  
+                        Click="CambiarOpcion"
+                         Name="Ajustes">
 
                     <Grid Margin="30,0,0,0">
                         <Grid.ColumnDefinitions>
@@ -81,7 +88,7 @@
 
         </Grid>
         
-        <ContentControl Grid.Column="1" Name="ContenedorPrincipal"/>
+        <ContentControl Grid.Column="1" Name="ContenedorPrincipal" Content=""/>
 
 
     </Grid>

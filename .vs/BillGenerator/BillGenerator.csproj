@@ -9,16 +9,22 @@
 
   <ItemGroup>
     <None Remove="resources\base-de-datosIcono.png" />
+    <None Remove="resources\clientesIcono.png" />
     <None Remove="resources\configuracionIcono.png" />
+    <None Remove="resources\facturaIcono.png" />
     <None Remove="resources\generarIcono.png" />
     <None Remove="resources\salirIcono.png" />
+    <None Remove="resources\userIcono.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="resources\base-de-datosIcono.png" />
+    <Resource Include="resources\clientesIcono.png" />
     <Resource Include="resources\configuracionIcono.png" />
+    <Resource Include="resources\facturaIcono.png" />
     <Resource Include="resources\generarIcono.png" />
     <Resource Include="resources\salirIcono.png" />
+    <Resource Include="resources\userIcono.png" />
   </ItemGroup>
 
   <ItemGroup>

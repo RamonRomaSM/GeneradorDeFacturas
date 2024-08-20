@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BillGenerator.pantallas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace BillGenerator
 {
     /// <summary>
@@ -20,26 +20,42 @@ namespace BillGenerator
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Button seleccionado;
+  
         public MainWindow()
         {
+            seleccionado = new Button();
             InitializeComponent();
         }
 
         private void Salir(object sender, RoutedEventArgs e)
         {
             this.Close();
-        }
-        private void Generar_Pantalla(object sender, RoutedEventArgs e)
-        {
            
         }
-        private void Datos_Pantalla(object sender, RoutedEventArgs e)
+        private void CambiarOpcion(object sender, RoutedEventArgs e)
         {
-            
-        }
-        private void Ajustes_Pantalla(object sender, RoutedEventArgs e)
-        {
-            
+            string opcion = ((Button)sender).Name;
+            switch (opcion)
+            { 
+                case "Generar":
+                    seleccionado.Background = null;
+                    seleccionado = (Button)sender;
+                    seleccionado.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#778DA9"));
+                break;
+                case "Datos":
+                    seleccionado.Background = null;
+                    seleccionado = (Button)sender;
+                    seleccionado.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#778DA9"));
+                    ContenedorPrincipal.Content = new DatosPantalla();
+                    break;
+                case "Ajustes":
+                    seleccionado.Background = null;
+                    seleccionado = (Button)sender;
+                    seleccionado.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#778DA9"));
+                break;
+            }
+
         }
     }
 }
