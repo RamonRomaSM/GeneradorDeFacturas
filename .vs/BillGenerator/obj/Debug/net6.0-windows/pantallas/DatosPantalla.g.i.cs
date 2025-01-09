@@ -77,7 +77,7 @@ namespace BillGenerator.pantallas {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BillGenerator;component/pantallas/datospantalla.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BillGenerator;V1.0.0.0;component/pantallas/datospantalla.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\pantallas\DatosPantalla.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
